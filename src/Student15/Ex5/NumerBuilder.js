@@ -5,7 +5,7 @@ export const NumberBuilder = () => {
   let [counter, setCounter] = useState(0);
 
   let stringOfNumber = () => {
-    setCounter(++counter);
+    setCounter(counter++);
     setNumberString((numberString += counter + " "));
   };
 
