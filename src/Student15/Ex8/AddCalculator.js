@@ -12,7 +12,6 @@ export const AddCalculator = () => {
   const three = () => {
     setCounterTotal(countTtoal + 3);
   };
-  
   return (
     <div>
       <button onClick={() => one()}>Add 1</button>
