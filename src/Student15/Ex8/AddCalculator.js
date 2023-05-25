@@ -12,13 +12,19 @@ export const AddCalculator = () => {
   const three = () => {
     setCounterTotal(countTtoal + 3);
   };
+
   return (
+
     <div>
+
       <button onClick={() => one()}>Add 1</button>
       <button onClick={() => two()}>Add 2</button>
       <button onClick={() => three()}>Add 3</button>
       <br />
       Total: {countTtoal}
+
     </div>
+
   );
+  
 };
